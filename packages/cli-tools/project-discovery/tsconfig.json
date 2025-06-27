@@ -1,3 +1,8 @@
 {
   "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../../../dist/packages/cli-tools/project-discovery",
+    "rootDir": "src"
+  },
+  "include": ["src"]
 }

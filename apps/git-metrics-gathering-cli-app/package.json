@@ -1,0 +1,9 @@
+{
+  "name": "git-metrics-gathering-cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}

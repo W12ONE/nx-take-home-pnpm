@@ -1,1 +1,1 @@
-export * from "./update-readme-section";
+export * from "./update-readme-section.js";

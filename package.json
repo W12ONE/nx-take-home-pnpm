@@ -2,17 +2,20 @@
   "name": "nx-take-home-pnpm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "tsc -p apps/git-metrics-gathering-cli-app/tsconfig.json   ",
+    "run-app-test-folder": "pnpm --filter git-metrics-gathering-cli-app exec tsx src/main.ts <path-to-test-repo>",
+    "run-app-nx": "pnpm --filter git-metrics-gathering-cli-app exec tsx src/main.ts <path-to-nx-repo>"
+  },
   "packageManager": "pnpm@10.12.3",
   "dependencies": {
     "@types/node": "^24.0.4",
+    "commander": "^14.0.0",
     "simple-git": "^3.28.0",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
 }

@@ -1,1 +1,1 @@
-export * from "./contributor-metrics.js";
+export * from "./contributor-metrics";
